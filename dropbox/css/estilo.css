@@ -1,0 +1,233 @@
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.botao01 {
+    border-radius: 5px;
+    background-color: white;
+    color: #0052d9;
+    border: solid 1px #0052d9;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.logo {
+    margin: auto;
+}
+
+.linkpadrao {
+    color:#0052d9;
+    margin: auto;
+}
+
+.linkpadrao:hover {
+    color:#0052d9 !important;
+}
+
+.divisor-header {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.438);
+    width: 100%;
+    padding-bottom: 20px;   
+}
+
+.sessao {
+    margin-top: 100px;
+}
+
+.botaogoogle {
+    width: 100%;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 3px;
+    border: 1px solid #0052d9;
+    margin-bottom: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.botaoapple {
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.linha {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+
+.linha::before {
+    content: '';
+    position: relative;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.486);
+    height: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -50%;
+    margin-right: 10px;
+}
+
+.linha::after {
+    content: '';
+    position: relative;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.486);
+    height: 1px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -50%;
+    margin-left: 10px;
+}
+
+#campo {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#campo:hover {
+    border: 1px solid rgba(128, 128, 128, 0.438);
+}
+
+#checkbox {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.acesso {
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 3px;
+    border: 1px solid #0052d9;
+    margin-bottom: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.rodape {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.divisor {
+    border-top: 1px solid rgba(128, 128, 128, 0.438);
+    width: 100%;
+    padding-top: 40px;   
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.itemprincipal {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.itemsecundario {
+    color: #767676;
+    font-size: 14px;
+}
+
+.imagemglobo {
+    width: 20px;
+    height: 20px;
+}
+
+.listashow {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0;
+}
+
+.setacima {
+    width: 9px;
+    height: 9px;
+    margin: auto 0;
+}
+
+a:hover {
+    text-decoration: underline !important; 
+    color: rgba(128, 128, 128, 0.863) !important;
+}
+
+.modal {
+    display: none;
+}
+     
+.modal:target {
+    display: flex;
+}
+
+.modal {
+    text-align: left;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+         
+.modal:target {
+    justify-content: space-around;
+    align-items: center;
+}
+         
+.modal__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    cursor: default;
+}
+         
+.modal__content {
+    min-width: 700px;
+    min-height: 360px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+         
+.modal__close {
+    color: initial;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 0.5rem;
+    display: inline-block;
+}
+
+.idiomatitulo {
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
